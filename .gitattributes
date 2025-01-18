@@ -1,0 +1,25 @@
+# Default behavior
+* text=auto eol=lf
+
+# WordPress specific files
+*.php text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.js text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.pot text eol=lf
+*.json text eol=lf
+
+# License files
+LICENSE* text eol=lf
+CHANGELOG* text eol=lf
+README* text eol=lf
+
+# Ignore vendor files
+wp-content/plugins/*/vendor/** -text
+
+# Binary files
+*.jpg binary
+*.png binary
+*.gif binary
